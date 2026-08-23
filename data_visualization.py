@@ -2,8 +2,8 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
 import seaborn as sns # For better aesthetics
-df_sales = pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\Zepto Project\zepto_sales (1).csv")
-df_products = pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\Zepto Project\zepto_products (1).csv")
+df_sales = pd.read_csv("zepto_sales.csv")
+df_products = pd.read_csv("zepto_products.csv")
 
 sns.set_style("whitegrid")
 plt.rcParams["figure.figsize"] = (10, 6)
