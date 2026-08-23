@@ -1,6 +1,6 @@
 import pandas as pd
-df_sales = pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\Zepto Project\zepto_sales (1).csv")
-df_products = pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\Zepto Project\zepto_products (1).csv")
+df_sales = pd.read_csv("zepto_sales.csv")
+df_products = pd.read_csv("zepto_products.csv")
 
 # Check for null values in sales data
 print("\n--- Null Values in Sales Data ---")
